@@ -23,7 +23,6 @@ The interface to construct requires coordinates to be entered in the correct ord
 ```npm install```
 
 ## Test:
-```npm run test
-```
+```npm run test```
 ## Compile:
 ```npm run build```
