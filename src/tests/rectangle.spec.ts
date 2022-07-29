@@ -88,6 +88,13 @@ describe("Rectangle Model", () => {
             expect(r1.intersects(r2)).toBe(true);
             expect(r2.intersects(r1)).toBe(true);   // inverse
         });
+
+        it("should return true for 4 intersection", () => {
+            let r2 = new Rectangle(6,7,0,10); 
+
+            expect(r1.intersects(r2)).toBe(true);
+            expect(r2.intersects(r1)).toBe(true);   // inverse
+        });
     });
 
     describe("contains() ", () => {
